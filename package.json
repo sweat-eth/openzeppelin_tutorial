@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sweat-eth/openzeppelin_tutorial/issues"
   },
-  "homepage": "https://github.com/sweat-eth/openzeppelin_tutorial#readme"
+  "homepage": "https://github.com/sweat-eth/openzeppelin_tutorial#readme",
+  "devDependencies": {
+    "hardhat": "^2.8.0"
+  }
 }
