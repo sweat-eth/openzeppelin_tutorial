@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/sweat-eth/openzeppelin_tutorial#readme",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@openzeppelin/contracts": "^4.4.1",
+    "ethers": "^5.5.2",
     "hardhat": "^2.8.0"
   }
 }
