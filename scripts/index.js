@@ -3,7 +3,6 @@ async function main () {
   // Retrieve accounts from the local node
   const accounts = await ethers.provider.listAccounts();
   console.log(accounts);
-
 }
 
 main()
