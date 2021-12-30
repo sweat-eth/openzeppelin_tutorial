@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sweat-eth/openzeppelin_tutorial#readme",
   "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
     "hardhat": "^2.8.0"
   }
 }
