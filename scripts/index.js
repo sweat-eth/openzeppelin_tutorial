@@ -5,8 +5,9 @@ async function main () {
   const Box = await ethers.getContractFactory('Box');
   const box = await Box.attach(address);
 
-  // Call the retrieve() function of the deployed Box contract
   await box.store(39)
+
+  // Call the retrieve() function of the deployed Box contract
   const value = await box.retrieve();
   console.log('Box value is', value.toString());
 }
